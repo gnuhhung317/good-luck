@@ -19,7 +19,7 @@ const ParticleBackground: React.FC = () => {
         return (
           <div
             key={i}
-            className="particle absolute bg-white/10 rounded-full blur-[1px]"
+            className="particle absolute bg-white/20 rounded-full blur-[1px]"
             style={{
               left: `${left}%`,
               width: `${size}px`,
